@@ -1,4 +1,4 @@
-input:focus{
+input:focus {
   background-color: transparent;
   border: none !important;
   outline: none !important;
@@ -81,7 +81,12 @@ input:focus{
   border-radius: 10px;
   background-color: #ffffff08;
 }
-
+.playlist-img {
+  width: 171px;
+  height: 171px;
+  /* max-width: 100%;
+  max-height: 100%; */
+}
 .profile {
   position: fixed;
   display: flex;
@@ -233,7 +238,7 @@ input:focus{
   height: 25px !important;
 }
 
-.search-bar-group {
+.search-bar-group{
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -248,4 +253,43 @@ input:focus{
 .search-bar-input{
   background-color: transparent;
   border: none !important ;
+}
+.icon-play{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+.icon-play:hover{
+  opacity: 2;
+}
+
+
+.icon-fav{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items:center;
+  justify-content: center;
+  opacity: 0.5;
+}
+.icon-fav:hover{
+  opacity: 2;
+}
+
+.icon-download{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+.icon-download:hover{
+  opacity: 2;
 }

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Library from './pages/Library';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PlaylistDetails from './pages/PlaylistDetails';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route path="/search" component={Search} />
               <Route path="/library" component={Library}/>
+              <Route path="/playlistdetails" component={PlaylistDetails}/>
           </Switch>
       </div>
     </Router>

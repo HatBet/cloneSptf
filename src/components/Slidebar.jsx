@@ -62,7 +62,7 @@ export default class Slidebar extends Component {
           </div>
           <div className="list-sidebar d-flex flex-column">
             {data2.map((i) => {
-              return <a className="mx-2">{i.name}</a>;
+              return <a className="mx-2" key={i.id}>{i.name}</a>;
             })}
           </div>
         </div>
